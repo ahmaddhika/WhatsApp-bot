@@ -17,3 +17,12 @@ npm install
 
 #### ex: `node index.js --public `
 #### ex: `node index.js --self `
+
+---------
+
+## Special Thanks
+
+* <a href="https://github.com/adiwajshing/Baileys"><img alt="GitHub" src="https://img.shields.io/badge/adiwajshing/Baileys%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
+* <a href="https://github.com/Nurutomo"><img alt="GitHub" src="https://img.shields.io/badge/Nurutomo%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
+* <a href="https://github.com/ibnusyawall"><img alt="GitHub" src="https://img.shields.io/badge/ibnusyawall%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
+* <a href="https://github.com/ariffb25"><img alt="GitHub" src="https://img.shields.io/badge/ariffb25%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
