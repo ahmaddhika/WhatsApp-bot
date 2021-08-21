@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://textpro.me/images/user_image/2021/08/6121245ce9a0b.jpg" width="35%" style="margin-left: auto;margin-right: auto;display: block;">
+	<img src="https://i.ibb.co/FBL520L/IMG-20210821-192755.jpg" width="35%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
 <h1 align="center">Erza Whatsapp bot</h1>
 
