@@ -35,7 +35,7 @@ Setel awalan
 
 ---------
 
- [![Nurutomo](https://github.com/Nurutomo.png?size=50)](https://github.com/Nurutomo) | [![Rey](https://raw.githubusercontent.com/inirey/inirey/main/reygans.jpg?size=50)](https://github.com/inirey)
+ [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![Rey](https://i.ibb.co/FBL520L/IMG-20210821-192755.png?size=100)](https://github.com/inirey)
 ----|----
 [Nurutomo](https://github.com/Nurutomo) | [Rey](https://github.com/inirey)
  Penulis / Pencipta | Penulis ulang
