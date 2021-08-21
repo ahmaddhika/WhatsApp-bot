@@ -1,10 +1,10 @@
-console.log('Memulai...')
+console.log('STARTING ERZA...')
 let { spawn } = require('child_process')
 let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts = require('cfonts')
-CFonts.say('Stikerin Bot', {
+CFonts.say('ERZA BY REY', {
   colors: ['#f2aa4c'],
   font: 'block',
   align: 'center',
@@ -57,4 +57,4 @@ function start(file) {
   // console.log(p)
 }
 
-start('main.js')
+start('reyganz.js')
