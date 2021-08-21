@@ -1,7 +1,7 @@
 {
-  "name": "stikerinbot",
+  "name": "erza-bot",
   "version": "1.1.1",
-  "description": "WhatsApp Bot Ringan",
+  "description": "Made by Rey",
   "main": "index.js",
   "scripts": {
     "start": "node index.js --self",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ariffb25/stikerinbot.git"
+    "url": "git+https://github.com/inirey/WhatsApp-bot.git"
   },
   "keywords": [
     "whatsapp-bot"
   ],
-  "author": "Ariffb",
+  "author": "Rey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ariffb25/stikerinbot/issues"
+    "url": "https://github.com/inirey/WhatsApp-bot/issues"
   },
-  "homepage": "https://github.com/ariffb25/stikerinbot",
+  "homepage": "https://github.com/inirey/WhatsApp-bot",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
     "awesome-phonenumber": "^2.54.0",
