@@ -42,7 +42,7 @@ global.db = new Low(
 global.DATABASE = global.db // Backwards Compatibility
 
 global.conn = new WAConnection()
-conn.browserDescription = ["reyganz", "Desktop", '10.0']
+conn.browserDescription = ["Rey ganteng", "Desktop", '10.0'] // gak usah di buah nanti erorr bang
 let authFile = `${opts._[0] || 'session'}.data.json`
 if (fs.existsSync(authFile)) conn.loadAuthInfo(authFile)
 if (opts['trace']) conn.logger.level = 'trace'
@@ -178,7 +178,7 @@ global.reload = (_event, filename) => {
     let dir = path.join(pluginFolder, filename)
     if (dir in require.cache) {
       delete require.cache[dir]
-      if (fs.existsSync(dir)) conn.logger.info(`kembali - memerlukan plugin '${filename}'`)
+      if (fs.existsSync(dir)) conn.logger.info(`info - habis edit apa bang? '${filename}'`)
       else {
         conn.logger.warn(`plugin yang dihapus '${filename}'`)
         return delete global.plugins[filename]
