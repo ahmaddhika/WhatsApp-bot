@@ -8,7 +8,7 @@ global.APIs = { // API Prefix
   reyganz2: 'https://server-api-rey.herokuapp.com',
   erzabot: 'https://erzaaa.herokuapp.com',
   reysekha: 'https://reysekha.herokuapp.com',
-  rifqi gay: 'https://whyme-api.herokuapp.com',
+  rifqigay: 'https://whyme-api.herokuapp.com',
   bx: 'https://bx-hunter.herokuapp.com',
   hardianto: 'https://hardianto-chan.herokuapp.com',
   jonaz: 'https://jonaz-api-v2.herokuapp.com',
