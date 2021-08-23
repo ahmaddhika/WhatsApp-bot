@@ -15,8 +15,13 @@ npm install
 
 ## RUN?
 
-#### ex: `node index.js --public `
-#### ex: `node index.js --self `
+#### ex: `node index.js/reyganz.js --public `
+
+Untuk mengaktifkan mode publik
+
+#### ex: `node index.js/reyganz.js --self `
+
+Untuk mengaktifkan mode self/mengabaikan yg lain
 
 ---------
 
