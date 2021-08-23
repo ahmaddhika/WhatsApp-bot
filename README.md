@@ -3,7 +3,8 @@
 </p>
 <h1 align="center">Erza Whatsapp bot</h1>
 
-[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GVwpKf83s42D1CnIfDW19G)
+[![Instagram owner](https://img.shields.io/badge/instagram-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/BsC3U7tjBuq6vBXOa4Wh9j)
+[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/BsC3U7tjBuq6vBXOa4Wh9j)
 
 ```bash
 git clone https://github.com/inirey/WhatsApp-bot
