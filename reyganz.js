@@ -1,6 +1,245 @@
-//next aja ya bang 
-//Thanks udah mau gunain sc ini note jangan hapus author
-//Nurutomo
-//Rey
-//Arrifb
-const _0x4fb306=_0x3060;(function(_0x27cac8,_0x3cb335){const _0x38d94b=_0x3060,_0x55a17c=_0x27cac8();while(!![]){try{const _0x21b092=-parseInt(_0x38d94b(0x21f))/0x1*(-parseInt(_0x38d94b(0x215))/0x2)+parseInt(_0x38d94b(0x1f4))/0x3+parseInt(_0x38d94b(0x22b))/0x4*(-parseInt(_0x38d94b(0x25a))/0x5)+-parseInt(_0x38d94b(0x250))/0x6*(-parseInt(_0x38d94b(0x253))/0x7)+parseInt(_0x38d94b(0x24f))/0x8+-parseInt(_0x38d94b(0x204))/0x9*(parseInt(_0x38d94b(0x258))/0xa)+parseInt(_0x38d94b(0x230))/0xb*(parseInt(_0x38d94b(0x256))/0xc);if(_0x21b092===_0x3cb335)break;else _0x55a17c['push'](_0x55a17c['shift']());}catch(_0x29842a){_0x55a17c['push'](_0x55a17c['shift']());}}}(_0x271a,0x9ecd7),require(_0x4fb306(0x26b)));const {WAConnection:_WAConnection}=require(_0x4fb306(0x1e5)),cloudDBAdapter=require('./lib/cloudDBAdapter'),{generate}=require(_0x4fb306(0x263)),syntaxerror=require('syntax-error'),simple=require(_0x4fb306(0x24a)),{promisify}=require(_0x4fb306(0x20d)),yargs=require(_0x4fb306(0x1e4)),Readline=require(_0x4fb306(0x1ef)),cp=require(_0x4fb306(0x222)),_=require(_0x4fb306(0x1f3)),path=require('path'),fs=require('fs');var low;try{low=require(_0x4fb306(0x20f));}catch(_0x3d9a3d){low=require(_0x4fb306(0x1e6));}const {Low,JSONFile}=low,rl=Readline[_0x4fb306(0x25c)](process[_0x4fb306(0x24d)],process[_0x4fb306(0x208)]),WAConnection=simple[_0x4fb306(0x26a)](_WAConnection);global[_0x4fb306(0x1fc)]=(_0x26e8c0,_0x16a515='/',_0x39a30e={},_0x2fe32e)=>(_0x26e8c0 in global['APIs']?global[_0x4fb306(0x223)][_0x26e8c0]:_0x26e8c0)+_0x16a515+(_0x39a30e||_0x2fe32e?'?'+new URLSearchParams(Object[_0x4fb306(0x259)]({..._0x39a30e,..._0x2fe32e?{[_0x2fe32e]:global[_0x4fb306(0x1fa)][_0x26e8c0 in global[_0x4fb306(0x223)]?global['APIs'][_0x26e8c0]:_0x26e8c0]}:{}})):''),global[_0x4fb306(0x24b)]={'start':new Date()};const PORT=process[_0x4fb306(0x257)][_0x4fb306(0x24c)]||0xbb8;global[_0x4fb306(0x251)]=new Object(yargs(process[_0x4fb306(0x20e)]['slice'](0x2))[_0x4fb306(0x242)](![])['parse']()),global[_0x4fb306(0x248)]=new RegExp('^['+(opts['prefix']||_0x4fb306(0x23c))[_0x4fb306(0x249)](/[|\\{}()[\]^$+*?.\-\^]/g,_0x4fb306(0x1ea))+']'),global['db']=new Low(/https?:\/\//[_0x4fb306(0x260)](opts['db']||'')?new cloudDBAdapter(opts['db']):new JSONFile((opts['_'][0x0]?opts['_'][0x0]+'_':'')+'database.json')),global['DATABASE']=global['db'],global[_0x4fb306(0x203)]=new WAConnection(),conn[_0x4fb306(0x1e8)]=[_0x4fb306(0x252),_0x4fb306(0x1ed),_0x4fb306(0x23d)];let authFile=(opts['_'][0x0]||_0x4fb306(0x239))+'.data.json';if(fs[_0x4fb306(0x1ee)](authFile))conn[_0x4fb306(0x25d)](authFile);if(opts[_0x4fb306(0x1e9)])conn[_0x4fb306(0x261)]['level']=_0x4fb306(0x1e9);function _0x3060(_0x453bbe,_0x4b297a){const _0x271a29=_0x271a();return _0x3060=function(_0x3060ed,_0x406d7c){_0x3060ed=_0x3060ed-0x1e1;let _0x3c3896=_0x271a29[_0x3060ed];return _0x3c3896;},_0x3060(_0x453bbe,_0x4b297a);}if(opts[_0x4fb306(0x22f)])conn[_0x4fb306(0x261)][_0x4fb306(0x1fd)]='debug';if(opts[_0x4fb306(0x265)]||opts['server'])conn['on']('qr',_0xabaf0e=>generate(_0xabaf0e,{'small':![]}));if(!opts['test'])setInterval(async()=>{const _0x160bf2=_0x4fb306;await global['db'][_0x160bf2(0x209)]();},0x3c*0x3e8);if(opts['server'])require('./server')(global['conn'],PORT);opts[_0x4fb306(0x260)]?(conn[_0x4fb306(0x22c)]={'jid':'2219191@s.whatsapp.net','name':_0x4fb306(0x260),'phone':{}},conn[_0x4fb306(0x224)]=(_0x173e86,_0x40f3e7,_0x56fbf6={})=>{const _0x5d5688=_0x4fb306;return{[_0x40f3e7]:{'url':'','mediaKey':'','mimetype':_0x56fbf6[_0x5d5688(0x267)]||'','fileEncSha256':'','fileSha256':'','fileLength':_0x173e86['length'],'seconds':_0x56fbf6[_0x5d5688(0x20a)],'fileName':_0x56fbf6[_0x5d5688(0x231)]||_0x5d5688(0x20c),'gifPlayback':_0x56fbf6[_0x5d5688(0x267)]==_0x5d5688(0x1f9)||undefined,'caption':_0x56fbf6['caption'],'ptt':_0x56fbf6['ptt']}};},conn[_0x4fb306(0x226)]=async(_0x249e93,_0x359b56,_0x5091a,_0x4bbffc={})=>{const _0xc7de0b=_0x4fb306;let _0x40aaf1=await conn['prepareMessageContent'](_0x359b56,_0x5091a,_0x4bbffc),_0x5c31ed=await conn[_0xc7de0b(0x1f2)](_0x249e93,_0x40aaf1,_0x4bbffc);if(_0x5091a==_0xc7de0b(0x21c))_0x5c31ed[_0xc7de0b(0x243)]['id']=require('crypto')[_0xc7de0b(0x1ec)](0x10)[_0xc7de0b(0x205)](_0xc7de0b(0x22e))[_0xc7de0b(0x245)]();conn[_0xc7de0b(0x211)](_0xc7de0b(0x202),{'jid':conn[_0xc7de0b(0x22c)][_0xc7de0b(0x269)],'hasNewMessage':!![],'count':0x1,'messages':{'all'(){return[_0x5c31ed];}}});},rl['on']('line',_0x1049d4=>conn[_0x4fb306(0x226)](_0x4fb306(0x21d),_0x1049d4['trim'](),'conversation'))):(rl['on'](_0x4fb306(0x21b),_0x316bc9=>{const _0x281855=_0x4fb306;process['send'](_0x316bc9[_0x281855(0x235)]());}),conn[_0x4fb306(0x216)]()[_0x4fb306(0x1f7)](async()=>{const _0x459228=_0x4fb306;await global['db'][_0x459228(0x1f8)](),global['db']['data']={'users':{},'chats':{},'stats':{},'msgs':{},'sticker':{},...global['db'][_0x459228(0x266)]||{}},global['db'][_0x459228(0x26c)]=_[_0x459228(0x26c)](global['db'][_0x459228(0x266)]),fs['writeFileSync'](authFile,JSON[_0x459228(0x247)](conn['base64EncodedAuthInfo'](),null,'\x09')),global[_0x459228(0x24b)][_0x459228(0x216)]=new Date();}));process['on'](_0x4fb306(0x214),console[_0x4fb306(0x237)]);let isInit=!![];global['reloadHandler']=function(){const _0x2261d8=_0x4fb306;let _0x55a261=require(_0x2261d8(0x22a));return!isInit&&(conn['off'](_0x2261d8(0x202),conn['handler']),conn[_0x2261d8(0x21e)]('message-delete',conn[_0x2261d8(0x1f0)]),conn['off'](_0x2261d8(0x26d),conn[_0x2261d8(0x23e)]),conn[_0x2261d8(0x21e)]('group-update',conn[_0x2261d8(0x255)]),conn[_0x2261d8(0x21e)](_0x2261d8(0x25f),conn['onCall'])),conn[_0x2261d8(0x1e2)]=_0x2261d8(0x225),conn[_0x2261d8(0x206)]=_0x2261d8(0x1e7),conn[_0x2261d8(0x229)]=_0x2261d8(0x1fb),conn['sdemote']=_0x2261d8(0x207),conn['handler']=_0x55a261[_0x2261d8(0x24e)],conn[_0x2261d8(0x1f0)]=_0x55a261[_0x2261d8(0x200)],conn[_0x2261d8(0x23e)]=_0x55a261[_0x2261d8(0x213)],conn[_0x2261d8(0x255)]=_0x55a261['GroupUpdate'],conn['onCall']=_0x55a261['onCall'],conn['on'](_0x2261d8(0x202),conn[_0x2261d8(0x24e)]),conn['on'](_0x2261d8(0x238),conn[_0x2261d8(0x1f0)]),conn['on'](_0x2261d8(0x26d),conn[_0x2261d8(0x23e)]),conn['on'](_0x2261d8(0x254),conn[_0x2261d8(0x255)]),conn['on'](_0x2261d8(0x25f),conn[_0x2261d8(0x264)]),isInit&&(conn['on'](_0x2261d8(0x237),conn[_0x2261d8(0x261)][_0x2261d8(0x237)]),conn['on']('close',()=>{setTimeout(async()=>{const _0x538be0=_0x3060;try{if(conn[_0x538be0(0x212)]===_0x538be0(0x221)){if(fs[_0x538be0(0x1ee)](authFile))await conn['loadAuthInfo'](authFile);await conn[_0x538be0(0x216)](),fs[_0x538be0(0x232)](authFile,JSON[_0x538be0(0x247)](conn[_0x538be0(0x21a)](),null,'\x09')),global[_0x538be0(0x24b)][_0x538be0(0x216)]=new Date();}}catch(_0x162ef1){conn[_0x538be0(0x261)]['error'](_0x162ef1);}},0x1388);})),isInit=![],!![];};let pluginFolder=path[_0x4fb306(0x262)](__dirname,_0x4fb306(0x1f5)),pluginFilter=_0x2a5c8d=>/\.js$/[_0x4fb306(0x260)](_0x2a5c8d);global[_0x4fb306(0x1f5)]={};function _0x271a(){const _0x5da3f8=['group-participants-update','webp','welcome','localeCompare','yargs/yargs','@adiwajshing/baileys','./lib/lowdb','@user\x20sayonara','browserDescription','trace','\x5c$&','watch','randomBytes','Safari','existsSync','readline','onDelete','map','prepareMessageFromContent','lodash','1614357LbGnfo','plugins','sort','then','read','image/gif','APIKeys','@user\x20sekarang\x20admin','API','level','info','convert','delete','reload','chat-update','conn','11640573ewlhog','toString','bye','@user\x20sekarang\x20bukan\x20admin','stdout','write','duration','cache','file','util','argv','lowdb','Silakan\x20instal\x20ffmpeg\x20untuk\x20mengirim\x20video\x20(pkg\x20install\x20ffmpeg)','emit','state','participantsUpdate','uncaughtException','388PakUnZ','connect','plugin\x20yang\x20dihapus\x20\x27','freeze','-filter_complex','base64EncodedAuthInfo','line','conversation','123@s.whatsapp.net','off','3029OlSQTy','-loglevel','close','child_process','APIs','prepareMessageMedia','Hai,\x20@user!\x0aSelamat\x20datang\x20di\x20grup\x20@subject\x0a\x0a@desc','sendMessage','readFileSync','warn','spromote','./handler','4594844YnVdYS','user','all','hex','debug','6026779NoUdZx','filename','writeFileSync','-frames:v','ffmpeg','trim','readdirSync','error','message-delete','session','spawn','log','‎xzXZ/!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&,.\x5c-','10.0','onParticipantsUpdate','-hide_banner','ffmpegWebp','color','exitProcess','key','catch','toUpperCase','magick','stringify','prefix','replace','./lib/simple','timestamp','PORT','stdin','handler','2971040csfoWc','6yqWvka','opts','ReyganZ','7332843GpRPMG','group-update','onGroupUpdate','12OoGPLZ','env','10uBnGzN','entries','5mLppPn','ffprobe','createInterface','loadAuthInfo','Quick\x20Test\x20Done','CB:action,,call','test','logger','join','qrcode-terminal','onCall','big-qr','data','mimetype','Stiker\x20mungkin\x20tidak\x20berfungsi\x20tanpa\x20imagemagick\x20jika\x20libwebp\x20di\x20ffmpeg\x20tidak\x20diinstal\x20(pkg\x20install\x20imagemagick)','jid','WAConnection','./config.js','chain'];_0x271a=function(){return _0x5da3f8;};return _0x271a();}for(let filename of fs[_0x4fb306(0x236)](pluginFolder)['filter'](pluginFilter)){try{global[_0x4fb306(0x1f5)][filename]=require(path[_0x4fb306(0x262)](pluginFolder,filename));}catch(_0x5f2872){conn['logger'][_0x4fb306(0x237)](_0x5f2872),delete global[_0x4fb306(0x1f5)][filename];}}console[_0x4fb306(0x23b)](Object['keys'](global['plugins'])),global[_0x4fb306(0x201)]=(_0x5e987c,_0x245ddd)=>{const _0x54baa2=_0x4fb306;if(pluginFilter(_0x245ddd)){let _0x1c35f7=path[_0x54baa2(0x262)](pluginFolder,_0x245ddd);if(_0x1c35f7 in require[_0x54baa2(0x20b)]){delete require[_0x54baa2(0x20b)][_0x1c35f7];if(fs[_0x54baa2(0x1ee)](_0x1c35f7))conn['logger'][_0x54baa2(0x1fe)]('kembali\x20-\x20memerlukan\x20plugin\x20\x27'+_0x245ddd+'\x27');else return conn['logger']['warn'](_0x54baa2(0x217)+_0x245ddd+'\x27'),delete global[_0x54baa2(0x1f5)][_0x245ddd];}else conn[_0x54baa2(0x261)]['info']('membutuhkan\x20plugin\x20baru\x20\x27'+_0x245ddd+'\x27');let _0x2b753b=syntaxerror(fs[_0x54baa2(0x227)](_0x1c35f7),_0x245ddd);if(_0x2b753b)conn[_0x54baa2(0x261)]['error']('kesalahan\x20sintaks\x20saat\x20memuat\x20\x27'+_0x245ddd+'\x27\x0a'+_0x2b753b);else try{global[_0x54baa2(0x1f5)][_0x245ddd]=require(_0x1c35f7);}catch(_0x53685d){conn['logger'][_0x54baa2(0x237)](_0x53685d);}finally{global['plugins']=Object['fromEntries'](Object[_0x54baa2(0x259)](global[_0x54baa2(0x1f5)])[_0x54baa2(0x1f6)](([_0x47bac8],[_0x8b425d])=>_0x47bac8[_0x54baa2(0x1e3)](_0x8b425d)));}}},Object['freeze'](global[_0x4fb306(0x201)]),fs[_0x4fb306(0x1eb)](path[_0x4fb306(0x262)](__dirname,'plugins'),global[_0x4fb306(0x201)]),global['reloadHandler']();async function _quickTest(){const _0x1e7b38=_0x4fb306;let _0x5c9b67=await Promise[_0x1e7b38(0x22d)]([cp[_0x1e7b38(0x23a)]('ffmpeg'),cp[_0x1e7b38(0x23a)](_0x1e7b38(0x25b)),cp[_0x1e7b38(0x23a)]('ffmpeg',[_0x1e7b38(0x23f),_0x1e7b38(0x220),_0x1e7b38(0x237),_0x1e7b38(0x219),_0x1e7b38(0x241),_0x1e7b38(0x233),'1','-f',_0x1e7b38(0x1e1),'-']),cp[_0x1e7b38(0x23a)](_0x1e7b38(0x1ff)),cp[_0x1e7b38(0x23a)]('magick'),cp['spawn']('gm')][_0x1e7b38(0x1f1)](_0x208efd=>{return Promise['race']([new Promise(_0x55a6da=>{const _0x4b33ec=_0x3060;_0x208efd['on'](_0x4b33ec(0x221),_0x75d869=>{_0x55a6da(_0x75d869!==0x7f);});}),new Promise(_0x13e6c0=>{const _0x36f469=_0x3060;_0x208efd['on'](_0x36f469(0x237),_0x85c856=>_0x13e6c0(![]));})]);})),[_0x2219b2,_0x304461,_0xbd6860,_0x3fc41f,_0x2c02fb,_0x4ee5b3]=_0x5c9b67;console[_0x1e7b38(0x23b)](_0x5c9b67);let _0x41d033=global['support']={'ffmpeg':_0x2219b2,'ffprobe':_0x304461,'ffmpegWebp':_0xbd6860,'convert':_0x3fc41f,'magick':_0x2c02fb,'gm':_0x4ee5b3};require('./lib/sticker')['support']=_0x41d033,Object[_0x1e7b38(0x218)](global['support']);if(!_0x41d033['ffmpeg'])conn[_0x1e7b38(0x261)][_0x1e7b38(0x228)](_0x1e7b38(0x210));if(_0x41d033[_0x1e7b38(0x234)]&&!_0x41d033[_0x1e7b38(0x240)])conn[_0x1e7b38(0x261)][_0x1e7b38(0x228)]('Stiker\x20tidak\x20bisa\x20dianimasikan\x20tanpa\x20libwebp\x20di\x20ffmpeg\x20(--enable-ibwebp\x20while\x20compiling\x20ffmpeg)');if(!_0x41d033[_0x1e7b38(0x1ff)]&&!_0x41d033[_0x1e7b38(0x246)]&&!_0x41d033['gm'])conn[_0x1e7b38(0x261)]['warn'](_0x1e7b38(0x268));}_quickTest()[_0x4fb306(0x1f7)](()=>conn[_0x4fb306(0x261)][_0x4fb306(0x1fe)](_0x4fb306(0x25e)))[_0x4fb306(0x244)](console['error']);
+require('./config.js')
+const { WAConnection: _WAConnection } = require('@adiwajshing/baileys')
+const cloudDBAdapter = require('./lib/cloudDBAdapter')
+const { generate } = require('qrcode-terminal')
+const syntaxerror = require('syntax-error')
+const simple = require('./lib/simple')
+//  const logs = require('./lib/logs')
+const { promisify } = require('util')
+const yargs = require('yargs/yargs')
+const Readline = require('readline')
+const cp = require('child_process')
+const _ = require('lodash')
+const path = require('path')
+const fs = require('fs')
+var low
+try {
+  low = require('lowdb')
+} catch (e) {
+  low = require('./lib/lowdb')
+}
+const { Low, JSONFile } = low
+
+const rl = Readline.createInterface(process.stdin, process.stdout)
+const WAConnection = simple.WAConnection(_WAConnection)
+
+
+global.API = (name, path = '/', query = {}, apikeyqueryname) => (name in global.APIs ? global.APIs[name] : name) + path + (query || apikeyqueryname ? '?' + new URLSearchParams(Object.entries({ ...query, ...(apikeyqueryname ? { [apikeyqueryname]: global.APIKeys[name in global.APIs ? global.APIs[name] : name] } : {}) })) : '')
+global.timestamp = {
+  start: new Date
+}
+// global.LOGGER = logs()
+const PORT = process.env.PORT || 3000
+global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
+
+global.prefix = new RegExp('^[' + (opts['prefix'] || '‎xzXZ/!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&,.\\-').replace(/[|\\{}()[\]^$+*?.\-\^]/g, '\\$&') + ']')
+
+global.db = new Low(
+  /https?:\/\//.test(opts['db'] || '') ?
+    new cloudDBAdapter(opts['db']) :
+    new JSONFile(`${opts._[0] ? opts._[0] + '_' : ''}database.json`)
+)
+global.DATABASE = global.db // Backwards Compatibility
+
+global.conn = new WAConnection()
+conn.browserDescription = ["Rey", "Safari", '10.0']
+let authFile = `${opts._[0] || 'session'}.data.json`
+if (fs.existsSync(authFile)) conn.loadAuthInfo(authFile)
+if (opts['trace']) conn.logger.level = 'trace'
+if (opts['debug']) conn.logger.level = 'debug'
+if (opts['big-qr'] || opts['server']) conn.on('qr', qr => generate(qr, { small: false }))
+if (!opts['test']) setInterval(async () => {
+  await global.db.write()
+}, 60 * 1000) // Save every minute
+if (opts['server']) require('./server')(global.conn, PORT)
+
+if (opts['test']) {
+  conn.user = {
+    jid: '2219191@s.whatsapp.net',
+    name: 'test',
+    phone: {}
+  }
+  conn.prepareMessageMedia = (buffer, mediaType, options = {}) => {
+    return {
+      [mediaType]: {
+        url: '',
+        mediaKey: '',
+        mimetype: options.mimetype || '',
+        fileEncSha256: '',
+        fileSha256: '',
+        fileLength: buffer.length,
+        seconds: options.duration,
+        fileName: options.filename || 'file',
+        gifPlayback: options.mimetype == 'image/gif' || undefined,
+        caption: options.caption,
+        ptt: options.ptt
+      }
+    }
+  }
+
+  conn.sendMessage = async (chatId, content, type, opts = {}) => {
+    let message = await conn.prepareMessageContent(content, type, opts)
+    let waMessage = await conn.prepareMessageFromContent(chatId, message, opts)
+    if (type == 'conversation') waMessage.key.id = require('crypto').randomBytes(16).toString('hex').toUpperCase()
+    conn.emit('chat-update', {
+      jid: conn.user.jid,
+      hasNewMessage: true,
+      count: 1,
+      messages: {
+        all() {
+          return [waMessage]
+        }
+      }
+    })
+  }
+  rl.on('line', line => conn.sendMessage('123@s.whatsapp.net', line.trim(), 'conversation'))
+} else {
+  rl.on('line', line => {
+    process.send(line.trim())
+  })
+  conn.connect().then(async () => {
+    await global.db.read()
+    global.db.data = {
+      users: {},
+      chats: {},
+      stats: {},
+      msgs: {},
+      sticker: {},
+      ...(global.db.data || {})
+    }
+    global.db.chain = _.chain(global.db.data)
+    fs.writeFileSync(authFile, JSON.stringify(conn.base64EncodedAuthInfo(), null, '\t'))
+    global.timestamp.connect = new Date
+  })
+}
+process.on('uncaughtException', console.error)
+// let strQuot = /(["'])(?:(?=(\\?))\2.)*?\1/
+
+let isInit = true
+global.reloadHandler = function () {
+  let handler = require('./handler')
+  if (!isInit) {
+    conn.off('chat-update', conn.handler)
+    conn.off('message-delete', conn.onDelete)
+    conn.off('group-participants-update', conn.onParticipantsUpdate)
+    conn.off('group-update', conn.onGroupUpdate)
+    conn.off('CB:action,,call', conn.onCall)
+  }
+  conn.welcome = 'Hai, @user!\nSelamat datang di grup @subject\n\n@desc'
+  conn.bye = '@user keluar'
+  conn.spromote = '@user sekarang admin'
+  conn.sdemote = '@user sekarang bukan admin'
+  conn.handler = handler.handler
+  conn.onDelete = handler.delete
+  conn.onParticipantsUpdate = handler.participantsUpdate
+  conn.onGroupUpdate = handler.GroupUpdate
+  conn.onCall = handler.onCall
+  conn.on('chat-update', conn.handler)
+  conn.on('message-delete', conn.onDelete)
+  conn.on('group-participants-update', conn.onParticipantsUpdate)
+  conn.on('group-update', conn.onGroupUpdate)
+  conn.on('CB:action,,call', conn.onCall)
+  if (isInit) {
+    conn.on('error', conn.logger.error)
+    conn.on('close', () => {
+      setTimeout(async () => {
+        try {
+          if (conn.state === 'close') {
+            if (fs.existsSync(authFile)) await conn.loadAuthInfo(authFile)
+            await conn.connect()
+            fs.writeFileSync(authFile, JSON.stringify(conn.base64EncodedAuthInfo(), null, '\t'))
+            global.timestamp.connect = new Date
+          }
+        } catch (e) {
+          conn.logger.error(e)
+        }
+      }, 5000)
+    })
+  }
+  isInit = false
+  return true
+}
+
+// Plugin Loader
+let pluginFolder = path.join(__dirname, 'plugins')
+let pluginFilter = filename => /\.js$/.test(filename)
+global.plugins = {}
+for (let filename of fs.readdirSync(pluginFolder).filter(pluginFilter)) {
+  try {
+    global.plugins[filename] = require(path.join(pluginFolder, filename))
+  } catch (e) {
+    conn.logger.error(e)
+    delete global.plugins[filename]
+  }
+}
+console.log(Object.keys(global.plugins))
+global.reload = (_event, filename) => {
+  if (pluginFilter(filename)) {
+    let dir = path.join(pluginFolder, filename)
+    if (dir in require.cache) {
+      delete require.cache[dir]
+      if (fs.existsSync(dir)) conn.logger.info(`kembali - memerlukan plugin '${filename}'`)
+      else {
+        conn.logger.warn(`plugin yang dihapus '${filename}'`)
+        return delete global.plugins[filename]
+      }
+    } else conn.logger.info(`membutuhkan plugin baru '${filename}'`)
+    let err = syntaxerror(fs.readFileSync(dir), filename)
+    if (err) conn.logger.error(`kesalahan sintaks saat memuat '${filename}'\n${err}`)
+    else try {
+      global.plugins[filename] = require(dir)
+    } catch (e) {
+      conn.logger.error(e)
+    } finally {
+      global.plugins = Object.fromEntries(Object.entries(global.plugins).sort(([a], [b]) => a.localeCompare(b)))
+    }
+  }
+}
+Object.freeze(global.reload)
+fs.watch(path.join(__dirname, 'plugins'), global.reload)
+global.reloadHandler()
+
+
+
+// Quick Test
+async function _quickTest() {
+  let test = await Promise.all([
+    cp.spawn('ffmpeg'),
+    cp.spawn('ffprobe'),
+    cp.spawn('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-filter_complex', 'color', '-frames:v', '1', '-f', 'webp', '-']),
+    cp.spawn('convert'),
+    cp.spawn('magick'),
+    cp.spawn('gm'),
+  ].map(p => {
+    return Promise.race([
+      new Promise(resolve => {
+        p.on('close', code => {
+          resolve(code !== 127)
+        })
+      }),
+      new Promise(resolve => {
+        p.on('error', _ => resolve(false))
+      })
+    ])
+  }))
+  let [ffmpeg, ffprobe, ffmpegWebp, convert, magick, gm] = test
+  console.log(test)
+  let s = global.support = {
+    ffmpeg,
+    ffprobe,
+    ffmpegWebp,
+    convert,
+    magick,
+    gm
+  }
+  require('./lib/sticker').support = s
+  Object.freeze(global.support)
+
+  if (!s.ffmpeg) conn.logger.warn('Silakan instal ffmpeg untuk mengirim video (pkg install ffmpeg)')
+  if (s.ffmpeg && !s.ffmpegWebp) conn.logger.warn('Stiker tidak bisa dianimasikan tanpa libwebp di ffmpeg (--enable-ibwebp while compiling ffmpeg)')
+  if (!s.convert && !s.magick && !s.gm) conn.logger.warn('Stiker mungkin tidak berfungsi tanpa imagemagick jika libwebp di ffmpeg tidak diinstal (pkg install imagemagick)')
+}
+
+_quickTest()
+  .then(() => conn.logger.info('Quick Test Done'))
+  .catch(console.error)
