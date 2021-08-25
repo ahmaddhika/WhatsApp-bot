@@ -47,8 +47,8 @@ const defaultMenu = {
 • Database: %rtotalreg dari %totalreg
 
 %readmore`.trimStart(),
-  header: '💌 %category 💌\n',
-  body:   '💌 %cmd %islimit %isPremium',
+  header: '🔖 %category 🔖\n',
+  body:   '🔖 %cmd %islimit %isPremium',
   footer: '\n',
   after: `
 *%npmname@^%version*
